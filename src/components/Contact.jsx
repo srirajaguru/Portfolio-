@@ -93,13 +93,13 @@ const Contact = () => {
                 </div>
               </a>
 
-              <a href="https://www.linkedin.com/in/sri-raja-guru-m-79903a279" target="_blank" rel="noopener noreferrer" className="contact-direct-card">
+              <a href="https://www.linkedin.com/in/srirajaguru-m" target="_blank" rel="noopener noreferrer" className="contact-direct-card">
                 <div className="contact-card-icon">
                   <FaLinkedin />
                 </div>
                 <div className="contact-card-text">
                   <span className="contact-card-label">LinkedIn</span>
-                  <span className="contact-card-value">linkedin.com/in/sri-raja-guru-m</span>
+                  <span className="contact-card-value">linkedin.com/in/srirajaguru-m</span>
                 </div>
               </a>
 
