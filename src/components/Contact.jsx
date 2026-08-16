@@ -44,7 +44,7 @@ const Contact = () => {
     setTimeout(() => {
       const subject = encodeURIComponent(formData.subject || `Portfolio Contact from ${formData.name}`);
       const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
-      window.location.href = `mailto:srirajaguru17@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:srirajaguru.m@care.ac.in.com?subject=${subject}&body=${body}`;
       
       setStatus({ submitting: false, submitted: true, error: null });
       setFormData({ name: '', email: '', subject: '', message: '' });
@@ -73,13 +73,13 @@ const Contact = () => {
             </p>
 
             <div className="contact-cards-stack">
-              <a href="mailto:srirajaguru17@gmail.com" className="contact-direct-card">
+              <a href="mailto:srirajaguru.m@care.ac.in" className="contact-direct-card">
                 <div className="contact-card-icon">
                   <FaEnvelope />
                 </div>
                 <div className="contact-card-text">
                   <span className="contact-card-label">Email</span>
-                  <span className="contact-card-value">srirajaguru17@gmail.com</span>
+                  <span className="contact-card-value">srirajaguru.m@care.ac.in</span>
                 </div>
               </a>
 
