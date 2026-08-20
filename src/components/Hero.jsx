@@ -8,7 +8,7 @@ import {
   FaCode,
   FaLayerGroup
 } from 'react-icons/fa';
-import profilePhoto from '../assets/profile/image2.png';
+import profilePhoto from '../assets/profile/ooo.jpg';
 
 const Hero = () => {
   const techPills = ['React', 'Django', 'Python', 'REST APIs', 'Java', 'SQL'];
